@@ -2,9 +2,9 @@ use std::fmt;
 
 #[derive(Clone)]
 pub struct TimeCreated {
-    time: String,
-    comparison: TimeComparison,
-    time_diff: TimeDiff,
+    pub time: String,
+    pub comparison: TimeComparison,
+    pub time_diff: TimeDiff,
 }
 
 impl TimeCreated {

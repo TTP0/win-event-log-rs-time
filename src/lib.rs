@@ -41,10 +41,14 @@ extern crate winapi;
 
 mod api;
 mod query_list;
+
+
 #[cfg(feature = "subscriber")]
 mod subscriber;
+
 #[allow(unused_imports)]
 use api::WinEvents;
+
 #[allow(unused_imports)]
 use query_list::QueryList;
 
