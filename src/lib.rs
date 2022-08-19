@@ -42,7 +42,6 @@ extern crate winapi;
 mod api;
 mod query_list;
 
-
 #[cfg(feature = "subscriber")]
 mod subscriber;
 
