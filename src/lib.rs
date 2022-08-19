@@ -51,10 +51,7 @@ use api::WinEvents;
 
 #[allow(unused_imports)]
 use query_list::QueryList;
-use query_list::QueryItem;
-use query_list::EventFilter;
-use query_list::Comparison;
-use query_list::QueryItemType;
+
 
 
 pub mod prelude {
